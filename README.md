@@ -2,7 +2,7 @@
 Project Structure
 
     api/                       <!-- all backend related files-->
-        server.js              <!-- starts node application -->
+        server.js              <!-- starts node server -->
         config.js              <!--stores secret key and token validity time settings-->
         routes/                <!--backend api routes -->
         schemas/               <!-- mongodb collection schemas -->
