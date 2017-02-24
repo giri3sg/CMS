@@ -1,4 +1,13 @@
-# CMS - Yankee
+# CMS 
+
+
+This application implements "conference management system"
+
+
+Technical Details:
+MEAN stack with JWT (JSON web token for authentication)
+
+
 Project Structure
 
     api/                       <!-- all backend related files-->
@@ -23,16 +32,3 @@ Project Structure
     bower.json                 <!-- tells bower which files we need -->
     package.json               <!-- tells npm which packages we need -->
 
-
-
--- mongodb collections
-    {
-      DB_Name: "cms",
-      collections:
-        [
-          "users",
-          "submissions",
-          "reviews",
-          "chair"
-        ]
-    }
